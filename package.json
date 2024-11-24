@@ -1,0 +1,30 @@
+{
+  "name": "@ceil-dev/web-point-portal",
+  "version": "0.1.10",
+  "author": "Sergey Shkatula",
+  "description": "Webpoint Portal and Ether",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "npx tsc --watch",
+    "example": "node dist/example.js",
+    "lint": "npx eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceil-dev/web-point-portal.git"
+  },
+  "devDependencies": {
+    "@types/node": "22.9.0",
+    "@typescript-eslint/eslint-plugin": "8.15.0",
+    "@typescript-eslint/parser": "8.15.0",
+    "eslint": "9.15.0",
+    "eslint-config-prettier": "9.1.0",
+    "prettier": "3.3.3",
+    "typescript": "5.6.3"
+  },
+  "dependencies": {
+    "@ceil-dev/persistence": "0.1.8",
+    "@ceil-dev/portals": "0.4.8"
+  }
+}
